@@ -1,0 +1,23 @@
+{
+    "status": "OK",
+    "code": 200,
+    "message": "",
+    "data": [
+        {
+            "code" : "WEDDING",
+            "name" : "Pernikahan"
+        },
+        {
+            "code" : "AQIQAH",
+            "name" : "Aqiqah"
+        },
+        {
+            "code" : "BIRTHDAY",
+            "name" : "Ulang Tahun"
+        },
+        {
+            "code" : "BAPTISM",
+            "name" : "Baptisan"
+        }
+    ]
+}

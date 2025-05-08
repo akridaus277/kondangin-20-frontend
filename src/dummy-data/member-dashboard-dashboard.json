@@ -1,0 +1,47 @@
+{
+    "status": "OK",
+    "code": 200,
+    "message": "",
+    "data": [
+        {
+            "title" : "The Wedding of Arga & Nisa",
+            "status" : "inactive",
+            "mainEventDate" : "2025-05-30",
+            "subdomain" : "contohundangan",
+            "coverPhoto" : "https://placehold.co/300x400?text=WddingOfArgaNisa",
+            "owner" : "arga"
+        },
+        {
+            "title" : "The Wedding of Arga & Nisa",
+            "status" : "active",
+            "mainEventDate" : "2025-05-30",
+            "subdomain" : "contohundangan",
+            "coverPhoto" : "https://placehold.co/300x400?text=WddingOfArgaNisa",
+            "owner" : "arga"
+        },
+        {
+            "title" : "The Wedding of Arga & Nisa",
+            "status" : "inactive",
+            "mainEventDate" : "2025-05-30",
+            "subdomain" : "contohundangan",
+            "coverPhoto" : "https://placehold.co/300x400?text=WddingOfArgaNisa",
+            "owner" : "dahliaWO"
+        },
+        {
+            "title" : "The Wedding of Arga & Nisa",
+            "status" : "active",
+            "mainEventDate" : "2025-05-30",
+            "subdomain" : "contohundangan",
+            "coverPhoto" : "https://placehold.co/300x400?text=WddingOfArgaNisa",
+            "owner" : "merpatiWO"
+        },
+        {
+            "title" : "The Wedding of Arga & Nisa",
+            "status" : "active",
+            "mainEventDate" : "2025-05-30",
+            "subdomain" : "contohundangan",
+            "coverPhoto" : "https://placehold.co/300x400?text=WddingOfArgaNisa",
+            "owner" : "arga"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+<!-- public/templates/ContohInvitation.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Undangan Arga & Nisa</title>
+  <style>
+    body { font-family: sans-serif; background: #f9f9f9; margin: 0; padding: 2rem; }
+    .card { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 600px; margin: auto; }
+    h1 { color: #2c7a7b; }
+    .btn { background: #2c7a7b; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Arga & Nisa</h1>
+    <p>Kepada Yth. <span id="namaTamu">Tamu Undangan</span></p>
+    <p>Dengan hormat, kami mengundang Anda untuk menghadiri acara pernikahan kami:</p>
+    <ul>
+      <li>Tanggal: 12 Desember 2025</li>
+      <li>Waktu: 10:00 WIB</li>
+      <li>Tempat: Gedung Serbaguna, Jakarta</li>
+    </ul>
+    <button class="btn" onclick="alert('Terima kasih atas konfirmasi Anda!')">Konfirmasi Kehadiran</button>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const nama = urlParams.get('kpd');
+    if (nama) {
+      document.getElementById('namaTamu').innerText = decodeURIComponent(nama);
+    }
+  </script>
+</body>
+</html>

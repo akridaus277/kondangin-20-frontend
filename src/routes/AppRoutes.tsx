@@ -4,6 +4,7 @@ import LoginPage from "@/features/auth/LoginPage"
 import RegisterPage from "@/features/auth/RegisterPage"
 import MemberDashboardPage from "@/features/member-dashboard/MemberDashboardPage"
 import WaitingEmailVerificationPage from "@/features/auth/WaitingEmailVerificationPage"
+import InvitationDashboardPage from "@/features/invitation-dashboard/InvitationDashboardPage"
 
 
 const AppRoutes = () => {
@@ -14,6 +15,7 @@ const AppRoutes = () => {
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/member" element={<MemberDashboardPage />} />
       <Route path="/waiting-email-verification" element={<WaitingEmailVerificationPage />} />
+      {/* <Route path="/invitation-dashboard" element={<InvitationDashboardPage />} /> */}
       {/* <Route path="/invitation" element={<InvitationDashboard />} /> */}
       {/* <Route path="/admin" element={<AdminDashboard />} /> */}
     </Routes>
