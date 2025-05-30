@@ -8,6 +8,7 @@ import {
   } from "@chakra-ui/react"
   import Navbar from "@/components/layout/Navbar"
   import Footer from "@/components/layout/Footer"
+import NavbarNew from "@/components/layout/NavbarNew"
   
   const LandingPage = () => {
     return (
